@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
 
-        setTheme(R.style.
-                SplashScreen);
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
@@ -43,8 +41,9 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        setTheme(R.style.SplashScreen);
 
-        button = findViewById(R.id.button);
+        //button = findViewById(R.id.button);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        textView = findViewById(R.id.textView);
+        //textView = findViewById(R.id.textView);
 
 
 
